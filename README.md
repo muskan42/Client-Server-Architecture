@@ -1,5 +1,4 @@
 # Distributed Command Executor
-
 ---
 
 ### **Step 1: Setup the Environment**
