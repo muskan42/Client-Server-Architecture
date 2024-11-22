@@ -1,5 +1,16 @@
 # Distributed Command Executor
 
+1. A TCP socket-based client-server system is implemented in C.  
+2. The server listens on a specified TCP port and accepts client connections.  
+3. The client connects to the server using an IP address and port through a CLI.  
+4. The client sends commands and arguments to the server for processing.  
+5. The server spawns a thread for each request to process commands and send results back.  
+6. The server then logs all commands and results in a shared file.  
+7. Multiple clients connect and communicate with the server in parallel.  
+8. By integrating Wireshark into the testing and monitoring phases, we ensure efficient, reliable, and secure communication in the DCE system, while resolving potential network issues.
+
+---
+
 ### **Step 1: Setup the Environment**
 
 1. **Install Required Tools**:
